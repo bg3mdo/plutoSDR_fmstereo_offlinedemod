@@ -3,8 +3,8 @@ PlutoSDR GNURadio WFM stereo demodulation, and using PlutoSDR as standalone radi
 
 If you have a new uboot (v0.32 firmware), you will use following command to wide banded your pluto:
 
-fw_setenv compatible ad9364
-fw_setenv maxcpus
+fw_setenv compatible ad9364\
+fw_setenv maxcpus\
 
 REBOOT
 
