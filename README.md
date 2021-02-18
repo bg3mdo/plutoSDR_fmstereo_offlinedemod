@@ -1,16 +1,16 @@
 # plutoSDR_fmstereo_offlinedemod
 PlutoSDR GNURadio WFM stereo demodulation, and using PlutoSDR as standalone radio with customised firmware
 
-If you have a new uboot (v0.32 firmware), you will use following command to wide banded your pluto:
+If you have a new uboot (v0.32 firmware), you will use following command to wide banded your plutoSDR:
 
 fw_setenv compatible ad9364\
 fw_setenv maxcpus
 
 REBOOT
 
-'maxcpus' enable dual ARM cores, by default, only one ARM core is used for saving power.
+'maxcpus' enables dual ARM cores, by default, only one ARM core is used for saving power.
 
-For old uboot(firmware), you the following commands:
+For old uboot(firmware), use the following commands:
 
 fw_setenv attr_name compatible\
 fw_setenv attr_val "ad9364"\
